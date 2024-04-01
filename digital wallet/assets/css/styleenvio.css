@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa; 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.carta {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 30px;
+    margin-bottom: 20px; 
+}
+
+.carta h2 {
+    margin-top: 0; 
+}

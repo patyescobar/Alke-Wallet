@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>alkemy wallet login</title>
+    <!-- Enlaces a hojas de estilo -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/stylelogin.css" />
+  </head>
+  <body>
+    <!-- Contenedor principal -->
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Columna de formulario de inicio de sesión -->
+        <div class="col-md-4 offset-md-4 login-form">
+          <!-- Título del formulario -->
+          <h2 class="text-center mb-4">Ingresar</h2>
+          <!-- Formulario de inicio de sesión -->
+          <form id="formularioDeInicio">
+            <!-- Campo de usuario -->
+            <div class="campoDeUser form-group">
+              <label for="user">Usuario:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="user"
+                name="user"
+                placeholder="Ingrese su usuario"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <!-- Campo de contraseña -->
+            <div class="campoDeContraseña form-group">
+              <label for="pass">Contraseña:</label>
+              <input
+                type="password"
+                class="form-control"
+                id="pass"
+                name="pass"
+                placeholder="Ingrese su contraseña"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <!-- Botón de enviar formulario -->
+            <button type="submit" class="btn btn-primary btn-block">
+              Ingresar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Imagen de fondo (si corresponde) -->
+    <div class="imagenDeFondo"></div>
+
+    <!-- Scripts al final del documento -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/login.js"></script>
+  </body>
+</html>
